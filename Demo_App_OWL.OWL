@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<Class rdf:resource="TYPE:LONG"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City_State/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/City_State/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Control/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Control/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Institution_Name/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Institution_Name/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Lat/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Lat/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Locale/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Locale/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long_1/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Long_1/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long_1/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Long_1/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Main_Campus/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Main_Campus/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Black/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Black/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Female/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Female/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Male/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Male/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_White/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_White/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State_1/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/State_1/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State_1/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/State_1/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:DATE"/>
+	<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Top3Majors/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Top3Majors/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/URL/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/URL/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/SEMOSS_DATA">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Zip/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/SEMOSS_DATA">
+	<Class rdf:resource="TYPE:INT"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Zip/SEMOSS_DATA"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:04:03 19:03:53</TIME>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SEMOSS_DATA_UNIQUE_ROW_ID/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">23</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1439</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2558</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2212</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1494</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1721</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2145</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1887</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1508</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">748</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2237</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long_1/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2402</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2202</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2022</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2276</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1901</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1880</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2323</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">736</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">339</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">942</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1699</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2368</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2323</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1844</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1647</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2051</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">178</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">861</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2057</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">956</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">967</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2227</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">58</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1382</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">724</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">340</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">643</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">99</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">102</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">79</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State_1/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">54</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">908</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2654</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2588</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2267</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/SEMOSS_DATA">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2601</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>

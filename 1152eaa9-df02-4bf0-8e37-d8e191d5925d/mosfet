@@ -1,0 +1,8 @@
+{
+  "layout": "panel",
+  "rdbmsId": "1152eaa9-df02-4bf0-8e37-d8e191d5925d",
+  "hidden": false,
+  "insightName": "Demo Sheet",
+  "recipe": "DashboardInsightConfig(insights\u003d[\"073f293e-e256-4745-b7a5-adfe13bb3de8__e7596ba3-0973-485b-93cb-61dc7524931b\"], oldIds\u003d[\"77_44e87d54-e605-41f6-bf7a-c9f847f67a61\"], layout\u003d[\"\u003cencode\u003e{\"currentLayout\":{\"config\":{\"options\":{\"type\":\"grid\",\"xCount\":\"auto\",\"yCount\":\"auto\",\"panelOrder\":[\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___0\",\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___1\"]},\"panels\":{\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___0\":{\"top\":0,\"left\":0,\"height\":100,\"width\":50,\"index\":0,\"type\":\"STANDARD\"},\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___1\":{\"top\":0,\"left\":50,\"height\":100,\"width\":50,\"index\":1,\"type\":\"STANDARD\"}}},\"selectedWidget\":\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___1\",\"availableWidgets\":[{\"widgetId\":\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___0\",\"deleted\":false},{\"widgetId\":\"SMSSWidget77_44e87d54-e605-41f6-bf7a-c9f847f67a61___1\",\"deleted\":false}],\"displayOptions\":{\"type\":\"data\",\"static\":false,\"hidePanelTools\":false,\"disablePanelResize\":false,\"disablePanelMovement\":false}},\"selectedLayout\":\"panel\"}\u003c/encode\u003e\"] );",
+  "engineId": "073f293e-e256-4745-b7a5-adfe13bb3de8"
+}
